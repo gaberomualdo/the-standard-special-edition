@@ -1,0 +1,101 @@
+section.toparea {
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    clear: both;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../img/virus_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: var(--white-color);
+    padding: 2.5rem 1rem;
+    text-align: center;
+    position: relative;
+}
+
+section.toparea hr {
+    max-width: 100%;
+    width: 25rem;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+section.toparea div.logo {
+    display: block;
+    height: 3.5rem;
+    opacity: 0.5;
+}
+section.toparea div.logo * {
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    vertical-align: top;
+}
+section.toparea div.logo p {
+    font-size: 1.1rem;
+    opacity: 0.7;
+    line-height: 3.65rem;
+}
+
+section.toparea div.title {
+    height: 5rem;
+}
+section.toparea div.title h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -0.05rem;
+    font-family: 'Open Sans Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+}
+
+section.toparea .bottom-right,
+section.toparea .bottom-left {
+    display: block;
+    position: absolute;
+    font-size: 0.9rem;
+}
+section.toparea .bottom-right {
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
+section.toparea .bottom-left {
+    bottom: 0.5rem;
+    left: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    section.toparea {
+        zoom: 90%;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    section.toparea {
+        padding: 2.25rem 0.5rem;
+    }
+    section.toparea div.logo {
+        zoom: 80%;
+    }
+    section.toparea hr {
+        margin: 0.5rem 0;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-bottom: none;
+    }
+    section.toparea div.title {
+        height: auto;
+        overflow: hidden;
+    }
+    section.toparea div.title h1 {
+        font-size: 3.25rem;
+        line-height: 3.75rem;
+    }
+
+    section.toparea .bottom-right,
+    section.toparea .bottom-left {
+        opacity: 0.9;
+        font-size: 0.8rem;
+    }
+}

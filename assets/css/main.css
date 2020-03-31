@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
+
+@import 'abstracts/global.css';
+@import 'abstracts/variables.css';
+
+@import 'toparea/main.css';

@@ -11,6 +11,10 @@ body {
         sans-serif;
 }
 
+::selection {
+    background-color: rgba(0, 0, 0, 0.125);
+}
+
 a {
     color: var(--link-color);
     border-bottom: 1px dotted var(--link-color);

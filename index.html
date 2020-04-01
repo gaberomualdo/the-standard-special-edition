@@ -24,11 +24,14 @@
         <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png" />
         <meta name="theme-color" content="#070B48" />
 
+        <!-- CSS vendors -->
+        <link rel="stylesheet" href="assets/vendors/animate.css" />
+
         <!-- CSS -->
         <link rel="stylesheet" href="assets/css/main.css" />
     </head>
-    <body>
-        <section class="toparea">
+    <body style="height: 1000vh;">
+        <section class="toparea active">
             <div class="logo">
                 <p>the</p>
                 <h1>Standard</h1>
@@ -38,14 +41,20 @@
                 <h1>Coronavirus Special</h1>
             </div>
             <div class="bottom-right">February/March 2020</div>
-            <div class="bottom-left">
-                Photo licensed from <a href="https://pixabay.com/illustrations/virus-pathogen-infection-biology-4937553/">Pixabay</a>
-            </div>
+            <div class="bottom-left">From <a href="https://standard.asl.org/">The Standard</a></div>
+        </section>
+        <section class="toparea-scrolling animated faster">
+            <a href="https://standard.asl.org/" target="_blank" class="right">
+                <img src="assets/img/icon.png" alt="The Standard Logo" />
+            </a>
+            <h1 class="left">Coronavirus Special</h1>
         </section>
         <section class="timeline"></section>
         <section class="storiesarea"></section>
         <footer></footer>
 
         <!-- scripts -->
+        <script src="assets/js/toparea.js"></script>
+        <script src="assets/js/global.js"></script>
     </body>
 </html>

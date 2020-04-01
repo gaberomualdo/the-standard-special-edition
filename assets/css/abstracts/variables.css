@@ -1,7 +1,23 @@
 :root {
     --white-color: #ffffff;
 
-    --text-shadow-color: rgba(0, 0, 0, 0.25);
+    --text-shadow-color: rgba(0, 0, 0, 0.333);
+    --text-shadow-light-color: rgba(0, 0, 0, 0.28);
 
     --link-color: #41a8ff;
+
+    --theme-color: #c80024;
+    --theme-color-transparent: rgba(200, 0, 36, 0.25);
+
+    --text-color: #455a64;
+    --dark-text-color: #37474f;
+    --darker-text-color: #263238;
+
+    --light-color: #cfd8dc;
+    --lighter-color: #eceff1;
+
+    --scrolling-toparea-height: 3.5rem;
+
+    /*--text-shadow-color: transparent;
+    --text-shadow-light-color: transparent;*/
 }

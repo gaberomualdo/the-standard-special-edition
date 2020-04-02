@@ -4,22 +4,31 @@
     font-family: inherit;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: inherit;
 }
 
 body {
     font-family: 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
         sans-serif;
+    background-color: var(--page-background-color);
+    color: var(--text-color);
 }
 
 ::selection {
     background-color: rgba(0, 0, 0, 0.125);
 }
 
-a {
+a:not(.styled-link) {
     color: var(--link-color);
     border-bottom: 1px dotted var(--link-color);
     text-decoration: none;
+    user-select: text;
 }
-a:hover {
+a:not(.styled-link):hover::selection {
+    border-bottom-style: solid;
+    background-color: var(--link-color);
+    color: var(--white-color);
+}
+a:not(.styled-link):hover {
     border-bottom-style: solid;
 }

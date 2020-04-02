@@ -8,27 +8,23 @@ const scrollingTopareaElm = document.querySelector('section.toparea-scrolling');
     const checkTopareaScroll = () => {
         const topareaHeight = topareaElm.offsetTop + topareaElm.offsetHeight;
         const scrollingTopareaHeight = remToPx(4);
-        console.log('window.pageYOffset = ' + window.pageYOffset);
-        console.log('topareaHeight = ' + topareaHeight);
         if (window.pageYOffset >= topareaHeight) {
-            if (!scrollingTopareaElm.classList.contains('slideInDown')) {
+            if (!scrollingTopareaElm.classList.contains('fadeInDown')) {
                 scrollingTopareaElm.classList.add('active');
-                scrollingTopareaElm.classList.remove('slideOutUp');
-                scrollingTopareaElm.classList.add('slideInDown');
+                scrollingTopareaElm.classList.remove('fadeOutUp');
+                scrollingTopareaElm.classList.add('fadeInDown');
                 topareaElm.classList.remove('active');
-                console.log('Scrolling toparea should be shown');
             }
         } else if (window.pageYOffset < topareaHeight + scrollingTopareaHeight) {
-            if (!scrollingTopareaElm.classList.contains('slideOutUp')) {
+            if (!scrollingTopareaElm.classList.contains('fadeOutUp')) {
                 topareaElm.classList.add('active');
-                scrollingTopareaElm.classList.remove('slideInDown');
-                scrollingTopareaElm.classList.add('slideOutUp');
+                scrollingTopareaElm.classList.remove('fadeInDown');
+                scrollingTopareaElm.classList.add('fadeOutUp');
                 setTimeout(() => {
-                    if (scrollingTopareaElm.classList.contains('slideOutUp')) {
+                    if (scrollingTopareaElm.classList.contains('fadeOutUp')) {
                         scrollingTopareaElm.classList.remove('active');
                     }
                 }, 500);
-                console.log('Normal toparea should be shown');
             }
         }
     };

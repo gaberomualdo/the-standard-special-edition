@@ -1,8 +1,10 @@
 :root {
+    --page-background-color: #f8f8f8;
     --white-color: #ffffff;
 
     --text-shadow-color: rgba(0, 0, 0, 0.333);
     --text-shadow-light-color: rgba(0, 0, 0, 0.28);
+    --text-shadow-lighter-color: rgba(0, 0, 0, 0.17);
 
     --link-color: #41a8ff;
 
@@ -14,9 +16,14 @@
     --darker-text-color: #263238;
 
     --light-color: #cfd8dc;
+    --lightish-color: #dde3e6;
     --lighter-color: #eceff1;
 
     --scrolling-toparea-height: 3.5rem;
+
+    --timeline-box-height: 15rem;
+    --timeline-outer-width: 7rem;
+    --timeline-inner-width: 1.25rem;
 
     /*--text-shadow-color: transparent;
     --text-shadow-light-color: transparent;*/

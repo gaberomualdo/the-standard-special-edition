@@ -1,11 +1,11 @@
+/* main toparea with The Standard logo, title, and small bottom right and bottom left text */
 section.toparea {
     overflow: hidden;
     width: 100%;
     box-sizing: border-box;
     display: block;
     clear: both;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: var(--white-color);
     color: var(--theme-color);
     padding: 2.5rem 1rem;
     text-align: center;
@@ -15,10 +15,12 @@ section.toparea {
     user-select: none;
 }
 
+/* after user scrolls past, it disappears (class toggled by JS) */
 section.toparea:not(.active) {
     opacity: 0;
 }
 
+/* line separating logo and title */
 section.toparea hr {
     max-width: 100%;
     width: 25rem;
@@ -28,6 +30,7 @@ section.toparea hr {
     margin: 1rem 0;
 }
 
+/* logo with "the" small and "Standard" big, and line heights match up */
 section.toparea div.logo {
     display: block;
     height: 3.5rem;
@@ -46,6 +49,7 @@ section.toparea div.logo p {
     line-height: 3.65rem;
 }
 
+/* title */
 section.toparea div.title {
     height: 5rem;
 }
@@ -59,6 +63,7 @@ section.toparea div.title h1 {
         'Helvetica Neue', sans-serif;
 }
 
+/* bottom right and left text */
 section.toparea .bottom-right,
 section.toparea .bottom-left {
     display: block;
@@ -75,6 +80,7 @@ section.toparea .bottom-left {
     left: 0.5rem;
 }
 
+/* responsiveness */
 @media only screen and (max-width: 1000px) {
     section.toparea {
         zoom: 90%;

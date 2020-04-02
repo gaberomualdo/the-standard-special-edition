@@ -1,3 +1,4 @@
+/* toparea/nav that is shown while user is scrolling */
 section.toparea-scrolling {
     height: var(--scrolling-toparea-height);
     width: 100%;
@@ -9,20 +10,24 @@ section.toparea-scrolling {
     color: var(--theme-color);
     padding: 0.5rem 1rem;
     text-align: center;
-    box-shadow: 0 0 1rem var(--text-shadow-color);
+    background-color: var(--white-color);
+    box-shadow: 0 0 0.65rem var(--text-shadow-light-color);
     user-select: none;
     z-index: 9999;
-    opacity: 1;
-}
-section.toparea-scrolling:not(.active) {
-    opacity: 0;
 }
 
+/* when at the top, the other toparea is shown and this one is not displayed (class toggled by JS) */
+section.toparea-scrolling:not(.active) {
+    display: none;
+}
+
+/* misc styles */
 section.toparea-scrolling > * {
     display: block;
     float: left;
 }
 
+/* left title */
 section.toparea-scrolling h1.left {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -32,10 +37,11 @@ section.toparea-scrolling h1.left {
         'Helvetica Neue', sans-serif;
 }
 
+/* right image and link */
 section.toparea-scrolling .right {
     float: right;
     border: none;
-    transition: box-shadow 0.2s, transform 0.2s;
+    transition: box-shadow 0.2s, transform 0.2s, opacity 0.2s;
     cursor: pointer;
     border-radius: 50%;
     overflow: hidden;
@@ -46,16 +52,19 @@ section.toparea-scrolling .right {
 section.toparea-scrolling .right:hover {
     transform: translateY(-1px);
     box-shadow: 0 0.1rem 0.4rem var(--text-shadow-light-color);
+    opacity: 0.85;
 }
 section.toparea-scrolling .right:active {
     transform: translateY(0);
     box-shadow: 0 0.075rem 0.3rem var(--text-shadow-light-color);
+    opacity: 0.95;
 }
 section.toparea-scrolling .right img {
     height: 2.5rem;
     width: 2.5rem;
 }
 
+/* responsiveness */
 @media only screen and (max-width: 725px) {
     section.toparea-scrolling {
         zoom: 90%;

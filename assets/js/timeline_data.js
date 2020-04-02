@@ -190,9 +190,19 @@ const timelineData = [
         ]
     },
     {
-        type: 'text',
-        date: 'mar 10',
-        content: 'The ecology trip to South Africa was canceled.'
+        type: 'articles',
+        date: 'mar 12',
+        content: [
+            {
+                url: 'https://standard.asl.org/14427/news/annual-ecology-trip-to-south-africa-canceled/',
+                title: 'Annual Ecology trip to South Africa canceled',
+                previewText: `The annual Ecology class trip to the Hluhluwe–Imfolozi Park in South Africa has been canceled. The trip was scheduled to occur over two weeks, beginning March 20. The first week of the trip would have coincided with the now-canceled Alternatives trips. This decision was made due to several concerns surrounding the coronavirus outbreak, and marks the first time that the trip, which has run almost every year spanning two decades, has been canceled.
+
+                Science Teacher Jude Ruff, who teaches the Ecology course and was meant to be a chaperone for the trip, said that there were a multitude of issues around the spread of the virus that led to the cancellation.
+                
+                “[We considered] what might happen between now, if we say we’re going, and the time we depart in terms of changes in South Africa and in [the U.K.],” she said. “There are also concerns around what if one or more of us become ill if we’re in the wilderness … we would all have to be isolated.”`
+            }
+        ]
     },
     {
         type: 'text',

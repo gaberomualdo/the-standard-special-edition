@@ -18,10 +18,13 @@ body {
     background-color: rgba(0, 0, 0, 0.125);
 }
 
+a {
+    text-decoration: none;
+}
+
 a:not(.styled-link) {
     color: var(--link-color);
     border-bottom: 1px dotted var(--link-color);
-    text-decoration: none;
     user-select: text;
 }
 a:not(.styled-link):hover::selection {

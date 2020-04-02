@@ -188,7 +188,7 @@ section.timeline .timeline-part .content .box.article-box .image {
     flex-basis: 37.5%;
     background-color: red;
     position: relative;
-    border-right: 1px solid var(--light-color);
+    border-right: 1px solid var(--lighter-color);
 }
 section.timeline .timeline-part .content .box.article-box .image img {
     width: 100%;

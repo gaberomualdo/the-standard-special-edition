@@ -1,8 +1,10 @@
 :root {
     --page-background-color: #f8f8f8;
+    --page-light-background-color: #fdfdfd;
     --white-color: #ffffff;
 
     --text-shadow-color: rgba(0, 0, 0, 0.333);
+    --text-shadow-dark-color: rgba(0, 0, 0, 0.666);
     --text-shadow-light-color: rgba(0, 0, 0, 0.28);
     --text-shadow-lighter-color: rgba(0, 0, 0, 0.17);
 

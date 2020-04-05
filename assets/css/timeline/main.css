@@ -7,6 +7,28 @@ section.timeline {
     box-sizing: border-box;
 }
 
+/* less padding on smaller screens */
+@media only screen and (max-width: 1200px) {
+    section.timeline {
+        padding: 3rem 2rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section.timeline {
+        padding: 2.5rem 1.5rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    section.timeline {
+        padding: 2.5rem 1rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+    section.timeline {
+        padding: 2rem 0.5rem;
+    }
+}
+
 /* timeline part with timeline */
 section.timeline .timeline-part {
     width: 100%;
@@ -133,7 +155,6 @@ section.timeline .timeline-part .content .box .italic {
 /* timeline responsiveness */
 @media only screen and (max-width: 750px) {
     section.timeline {
-        padding: 2rem 0.5rem;
         zoom: 95%;
     }
 
@@ -169,7 +190,7 @@ section.timeline .timeline-part .content:not(.single-box) a.box.article-box:firs
 section.timeline .timeline-part .content a.box.article-box {
     box-shadow: 0 0.05rem 0.4rem var(--text-shadow-lighter-color);
     opacity: 0.95;
-    transition: transform 0.2s, opacity 0.2s, box-shadow 0.2s;
+    transition: transform 0.25s, opacity 0.25s, box-shadow 0.25s;
     overflow: hidden;
 }
 section.timeline .timeline-part .content a.box.article-box:hover {
@@ -179,7 +200,7 @@ section.timeline .timeline-part .content a.box.article-box:hover {
 }
 section.timeline .timeline-part .content a.box.article-box:active {
     transform: translateY(-2px);
-    box-shadow: 0 0.075rem 0.6rem var(--text-shadow-light-color);
+    box-shadow: 0 0.06rem 0.48rem var(--text-shadow-light-color);
     opacity: 1;
 }
 
@@ -261,9 +282,9 @@ section.timeline .timeline-part .content.single-box .box.article-box .image + .i
     section.timeline .timeline-part .content {
         display: block !important;
     }
-    section.timeline .timeline-part .content .box.article-box:not(.single-box):first-child {
+    section.timeline .timeline-part .content:not(.single-box) .box.article-box:first-child {
         margin-right: 0 !important;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
     section.timeline .timeline-part .content .box.article-box {
         width: 100%;
@@ -273,6 +294,7 @@ section.timeline .timeline-part .content.single-box .box.article-box .image + .i
 @media only screen and (max-width: 750px) {
     section.timeline .timeline-part .content {
         zoom: 95%;
+        padding-left: 1.25rem;
     }
 }
 

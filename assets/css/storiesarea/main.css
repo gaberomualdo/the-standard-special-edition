@@ -1,0 +1,293 @@
+section.storiesarea {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: var(--page-light-background-color);
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+/* photos section */
+section.storiesarea .photos {
+    display: block;
+    width: 100%;
+    height: 10rem;
+    object-fit: cover;
+    position: relative;
+}
+section.storiesarea .photos .image {
+    height: 100%;
+    width: calc(100% / 6);
+    display: block;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    --dark-overlay: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65));
+}
+
+section.storiesarea .photos .image:nth-child(1) {
+    background-image: var(--dark-overlay), url(../../img/aslclosed1.jpg);
+}
+section.storiesarea .photos .image:nth-child(2) {
+    background-image: var(--dark-overlay), url(../../img/aslclosed5.jpg);
+}
+section.storiesarea .photos .image:nth-child(3) {
+    background-image: var(--dark-overlay), url(../../img/aslclosed2.jpg);
+}
+section.storiesarea .photos .image:nth-child(4) {
+    background-image: var(--dark-overlay), url(../../img/aslclosed6.jpg);
+}
+section.storiesarea .photos .image:nth-child(5) {
+    background-image: var(--dark-overlay), url(../../img/aslclosed4.jpg);
+}
+section.storiesarea .photos .image:nth-child(6) {
+    background-image: var(--dark-overlay), url(../../img/aslclosed3.jpg);
+}
+
+section.storiesarea .photos .title {
+    position: absolute;
+    left: 50%;
+    top: 48.5%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+    font-size: 3rem;
+    line-height: 1.35;
+    width: calc(100% - 2.5rem);
+    text-align: center;
+    text-shadow: 0 0.2rem 1.6rem var(--text-shadow-dark-color);
+    font-weight: 600;
+}
+
+/* responsiveness for photos */
+@media only screen and (max-width: 850px) {
+    section.storiesarea .photos {
+        height: 10rem;
+        --dark-overlay: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    }
+    section.storiesarea .photos .image {
+        height: 5rem;
+        width: calc(100% / 3);
+    }
+    section.storiesarea .photos .title {
+        font-size: 1.75rem;
+    }
+}
+
+/* inner section with rows of boxes */
+
+section.storiesarea .inner {
+    padding: 3.5rem 5rem;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* less padding on smaller screens */
+@media only screen and (max-width: 1200px) {
+    section.storiesarea .inner {
+        padding: 3rem 2rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section.storiesarea .inner {
+        padding: 2.5rem 1.5rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    section.storiesarea .inner {
+        padding: 2.5rem 1rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+    section.storiesarea .inner {
+        padding: 2rem 0.5rem;
+    }
+}
+
+section.storiesarea .inner .row {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+section.storiesarea .inner .row:not(:last-child) {
+    margin-bottom: 2.5rem;
+}
+
+section.storiesarea .inner .row .box {
+    background-color: var(--white-color);
+    flex-basis: 100%;
+    box-sizing: border-box;
+    padding: 1.75rem 2.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--lightish-color);
+    /*box-shadow: 0 0.05rem 0.4rem var(--text-shadow-lighter-color);*/
+    line-height: 1.75;
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+section.storiesarea .inner .row .box:not(.text) {
+    box-shadow: 0 0.05rem 0.4rem var(--text-shadow-lighter-color);
+}
+section.storiesarea .inner .row a.box {
+    box-shadow: 0 0.05rem 0.4rem var(--text-shadow-lighter-color);
+    opacity: 0.95;
+    transition: transform 0.25s, opacity 0.25s, box-shadow 0.25s;
+    overflow: hidden;
+    color: inherit;
+}
+
+section.storiesarea .inner .row a.box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.1rem 0.8rem var(--text-shadow-light-color);
+    opacity: 1;
+}
+section.storiesarea .inner .row a.box:active {
+    transform: translateY(-2px);
+    box-shadow: 0 0.06rem 0.48rem var(--text-shadow-light-color);
+    opacity: 1;
+}
+
+section.storiesarea .inner .row a.box h1.title {
+    font-size: 2.5rem;
+    line-height: 1.35;
+    color: var(--dark-text-color);
+    margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+section.storiesarea .inner .row a.box p.preview-text {
+    font-size: 1rem;
+    opacity: 0.9;
+    line-height: 1.65;
+}
+section.storiesarea .inner .row a.box p.preview-text .read-more {
+    font-weight: 600;
+}
+/* double box */
+section.storiesarea .inner .row.double-box .box {
+    flex-basis: calc((100% - 2.5rem) / 2);
+}
+section.storiesarea .inner .row.double-box .box:first-child {
+    margin-right: 2.5rem;
+}
+
+@media only screen and (max-width: 1150px) {
+    section.storiesarea .inner .row.double-box {
+        flex-direction: column;
+    }
+    section.storiesarea .inner .row.double-box:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    section.storiesarea .inner .row.double-box .box {
+        flex-basis: 100%;
+    }
+    section.storiesarea .inner .row.double-box .box:first-child {
+        margin-right: 0;
+    }
+    section.storiesarea .inner .row.double-box:nth-child(odd) .box:first-child,
+    section.storiesarea .inner .row.double-box:nth-child(even) .box:last-child {
+        margin-bottom: 2.5rem;
+    }
+}
+
+/* link box */
+section.storiesarea .inner .row .link-box .title {
+    font-size: 1.75rem;
+    line-height: 1.35;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(--dark-text-color);
+}
+
+section.storiesarea .inner .row .link-box ul.link-list {
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 1px solid var(--light-color);
+}
+section.storiesarea .inner .row .link-box ul.link-list a {
+    display: block;
+    border-top: 1px solid var(--light-color);
+    font-size: 1.15rem;
+    opacity: 0.77;
+    padding: 1rem 0.75rem;
+    min-height: 3.5rem;
+    line-height: 1.5;
+    box-sizing: border-box;
+    transition: color 0.2s, opacity 0.2s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+section.storiesarea .inner .row .link-box ul.link-list a > * {
+    display: block;
+    float: left;
+}
+section.storiesarea .inner .row .link-box ul.link-list a span {
+    min-height: 1.5rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    max-width: calc(100% - 3rem);
+}
+section.storiesarea .inner .row .link-box ul.link-list a svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    opacity: 0.5;
+    fill: var(--dark-text-color);
+    position: relative;
+    transition: opacity 0.2s, fill 0.2s, right 0.2s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+}
+
+section.storiesarea .inner .row .link-box ul.link-list a:hover {
+    color: var(--link-color);
+    opacity: 1;
+}
+section.storiesarea .inner .row .link-box ul.link-list a:hover svg {
+    fill: var(--link-color);
+    opacity: 1;
+    right: 0.5rem;
+}
+
+/* photo box */
+section.storiesarea .inner .row .image-box {
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.storiesarea .inner .row .image-box img {
+    height: auto;
+    width: 100%;
+}
+
+/* responsiveness for box */
+@media only screen and (max-width: 750px) {
+    section.storiesarea .inner .row {
+        margin-bottom: 1.5rem !important;
+    }
+    section.storiesarea .inner .row .box {
+        padding: 1.5rem;
+        zoom: 85%;
+    }
+    section.storiesarea .inner .row.double-box:nth-child(odd) .box:first-child,
+    section.storiesarea .inner .row.double-box:nth-child(even) .box:last-child {
+        margin-bottom: 1.75rem !important;
+    }
+}

@@ -5,6 +5,7 @@ section.timeline {
     display: block;
     padding: 3.5rem 5rem;
     box-sizing: border-box;
+    background-color: var(--page-background-color);
 }
 
 /* less padding on smaller screens */

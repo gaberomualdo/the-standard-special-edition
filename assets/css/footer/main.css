@@ -1,0 +1,156 @@
+.footer {
+    display: block;
+    margin: 0 5rem;
+    border-top: 1px solid var(--light-color);
+    min-height: 5rem;
+    position: relative;
+    padding: 1rem 0;
+    padding-bottom: 1.25rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 1200px) {
+    .footer {
+        margin: 0 2rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .footer {
+        margin: 0 1.5rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .footer {
+        margin: 0 1rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .footer {
+        margin: 0 0.5rem;
+    }
+}
+
+/* left, right, and center parts */
+.footer .left {
+    position: absolute;
+    left: 0;
+    top: 1rem;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+.footer .left a {
+    font-weight: 600;
+}
+.footer .left span {
+    display: none;
+}
+
+.footer .right {
+    position: absolute;
+    right: 0;
+    top: 1rem;
+}
+
+.footer .center {
+    text-align: center;
+    height: 3rem;
+    line-height: 2.75rem;
+    font-size: 1rem;
+    display: block;
+}
+
+/* links */
+.footer .right.links {
+    height: 3rem;
+    font-size: 0;
+}
+.footer .right.links a {
+    height: 2rem;
+    width: 2rem;
+    margin: 0.5rem 0.2rem;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    opacity: 0.45;
+    transition: opacity 0.2s, transform 0.2s;
+    display: inline-block;
+    backface-visibility: hidden;
+}
+.footer .right.links a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+}
+.footer .right.links a svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--dark-text-color);
+}
+.footer .right.links a:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+.footer .right.links a:active {
+    transform: scale(1.05);
+}
+
+/* logo */
+.footer .center.logo {
+    display: block;
+    height: 3rem;
+    zoom: 90%;
+}
+.footer .center.logo > a {
+    display: inline-block;
+    opacity: 0.9;
+    backface-visibility: hidden;
+    transition: opacity 0.3s, transform 0.3s;
+}
+.footer .center.logo > a:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+.footer .center.logo > a:active {
+    transform: scale(1.025);
+}
+.footer .center.logo > a > * {
+    display: inline-block;
+    font-size: 2.75rem;
+    line-height: 3.1rem;
+    vertical-align: top;
+}
+.footer .center.logo > a > p {
+    font-size: 1rem;
+    opacity: 0.7;
+    line-height: 3.25rem;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 950px) {
+    .footer .center {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .footer > * {
+        clear: both !important;
+        float: left !important;
+        width: 100% !important;
+        text-align: center;
+        position: relative !important;
+        top: auto !important;
+    }
+    .footer > *:not(:last-child) {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 575px) {
+    .footer .left br {
+        display: none;
+    }
+    .footer .left span {
+        display: inline;
+    }
+}

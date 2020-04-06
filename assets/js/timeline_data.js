@@ -3,7 +3,7 @@ const timelineData = [
         type: 'text',
         date: 'feb 24',
         content:
-            'The school went off on February break, just as cases started growing in Northern Italy, causing people to start to self-isolate if they started showing symptoms.'
+            'The school returned from February break, just as cases started growing in Northern Italy, causing people to start to self-isolate if they started showing symptoms.',
     },
     {
         type: 'articles',
@@ -25,9 +25,9 @@ const timelineData = [
                     
                     “Obviously it’s a very imminent danger,” she said. “Being Chinese, seeing China quarantined and no flights are going there, it’s quite hard.”
                     
-                    The spread of the disease has incited global alarm over the fear of the disease extending further.`
-            }
-        ]
+                    The spread of the disease has incited global alarm over the fear of the disease extending further.`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -41,9 +41,9 @@ const timelineData = [
 
                 In a statement by AMIS Director Executive Director Keith Montgomery, he explained the reasoning for the cancellation of the music trips.
                 
-                “It is necessary to cancel both the High School Honor Choir Festival in Oman and the High School Honor Band and Orchestra Festival in Dubai. The Oman festival cannot go on because of an expanding quarantine-upon-arrival policy of which we cannot predict the scope. Both the Oman Ministry of Health and the American International School of Muscat have asked AMIS to cancel this festival. Although there is currently no similar quarantine practice in place in the United Arab Emirates, we have had so many schools withdraw from the Dubai festival that the number of remaining participants is negligible.”`
-            }
-        ]
+                “It is necessary to cancel both the High School Honor Choir Festival in Oman and the High School Honor Band and Orchestra Festival in Dubai. The Oman festival cannot go on because of an expanding quarantine-upon-arrival policy of which we cannot predict the scope. Both the Oman Ministry of Health and the American International School of Muscat have asked AMIS to cancel this festival. Although there is currently no similar quarantine practice in place in the United Arab Emirates, we have had so many schools withdraw from the Dubai festival that the number of remaining participants is negligible.”`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -58,9 +58,9 @@ const timelineData = [
                 
                 Farmer said that he wanted to make sure the participating schools were taking the virus seriously, considering ASL is planning to host the Rugby 7s ISST tournament in March. 
                 
-                After the initial contact, Farmer said he decided, as ISST chair, to request a clear stance from all member schools on their perspective on international travel by March 3. A decision made regarding all of the ISSTs would be made on March 5. `
-            }
-        ]
+                After the initial contact, Farmer said he decided, as ISST chair, to request a clear stance from all member schools on their perspective on international travel by March 3. A decision made regarding all of the ISSTs would be made on March 5. `,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -77,7 +77,7 @@ const timelineData = [
                 
                 Henrikson mentioned that the risk of getting the virus could be relatively high.
                 
-                “I think ASL did not want to end up being in a situation that they would regret,” he said.`
+                “I think ASL did not want to end up being in a situation that they would regret,” he said.`,
             },
             {
                 url: 'https://standard.asl.org/14249/sports/all-issts-cancelled-due-to-coronavirus-concern/',
@@ -86,7 +86,7 @@ const timelineData = [
 
                 The decision was made by the ISST organization, which consists of the heads of all ISST member schools. The organization held a conference call and concluded that, given the severity of the ongoing situation, it was necessary to cancel all tournaments. 
                 
-                In an email sent to all ISST team members, Athletics Director John Farmer wrote, “this decision was based on a risk assessment of the conditions created by the COVID-19 virus, including concerns about the complexities of travel and housing, and the recognition of the need to be consistent in decision-making across our schools.”`
+                In an email sent to all ISST team members, Athletics Director John Farmer wrote, “this decision was based on a risk assessment of the conditions created by the COVID-19 virus, including concerns about the complexities of travel and housing, and the recognition of the need to be consistent in decision-making across our schools.”`,
             },
             {
                 url: 'https://standard.asl.org/14279/news/alternatives-music-tour-canceled-over-fear-of-coronavirus/',
@@ -98,9 +98,9 @@ const timelineData = [
                 
                 Head of School Robin Appleby said that the decision to cancel the trips was made in order to prioritize students’ health and safety. She said the school looked at the rapidly developing changes across Europe and realizes that, since the trips are four and a half days long, conditions could worsen during that time.
                 
-                “We might face the risk of not being able to get a group back or having a group have to go into isolation,” she said. “When you combine that with the risk of someone becoming ill and the responsibility and stress that could create for our employees … we just decided it wasn’t in anybody’s best interest to go ahead at this time.”`
-            }
-        ]
+                “We might face the risk of not being able to get a group back or having a group have to go into isolation,” she said. “When you combine that with the risk of someone becoming ill and the responsibility and stress that could create for our employees … we just decided it wasn’t in anybody’s best interest to go ahead at this time.”`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -120,7 +120,7 @@ const timelineData = [
                 
                 “We just decided that at a time when there was a higher risk to public health, that this is probably not the ideal time to do it,” she said.
                 
-                The aspect of attendees outside of the ASL community was also a contributing factor when deciding to postpone the event.`
+                The aspect of attendees outside of the ASL community was also a contributing factor when deciding to postpone the event.`,
             },
             {
                 url: 'https://standard.asl.org/14308/opinions/coronavirus-necessitates-global-cooperation/',
@@ -130,9 +130,9 @@ const timelineData = [
                 
                 The suppression of this virus is dependent upon domestic healthcare systems functioning to protect and treat its citizens, but that in itself is partially dependent on global cooperation. In order to limit its further spread and resulting death, countries must play an active role within the international community. 
 
-                Firstly, the World Health Organization (WHO) must be granted full access to each and every country that has cases of COVID-19. Being the lead international body on global health, having access to the world’s top minds in medicine, as well as nearly limitless resources, it’s importance in the global response to coronavirus should not be understated.`
-            }
-        ]
+                Firstly, the World Health Organization (WHO) must be granted full access to each and every country that has cases of COVID-19. Being the lead international body on global health, having access to the world’s top minds in medicine, as well as nearly limitless resources, it’s importance in the global response to coronavirus should not be understated.`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -147,9 +147,9 @@ const timelineData = [
                 
                 “In school we started to pay attention to this from day one,” she said. 
                 
-                In terms of discussing school protocol as a result of the virus, Appleby said that there is a total of 25 people involved in the process. The school has a crisis management team, a standing committee that considers potential risks to the school, that meets regularly to discuss the outbreak. That team also provides and seeks advice from the senior leadership team and the academic leadership team.`
-            }
-        ]
+                In terms of discussing school protocol as a result of the virus, Appleby said that there is a total of 25 people involved in the process. The school has a crisis management team, a standing committee that considers potential risks to the school, that meets regularly to discuss the outbreak. That team also provides and seeks advice from the senior leadership team and the academic leadership team.`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -163,9 +163,9 @@ const timelineData = [
 
                 TASIS has yet to confirm their participation in any rescheduled tournaments, according to an email from Farmer.
                 
-                There will also be a rugby sevens tournament held at Canons Park Friday, March 13. So far, ASL, ACS Cobham, FIS and UPS College: Seevic will play.  TASIS and Oaklands College might come as well. The schedule is below, but may change as teams are added.`
-            }
-        ]
+                There will also be a rugby sevens tournament held at Canons Park Friday, March 13. So far, ASL, ACS Cobham, FIS and UPS College: Seevic will play.  TASIS and Oaklands College might come as well. The schedule is below, but may change as teams are added.`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -185,9 +185,9 @@ const timelineData = [
                 
                 The Robotics team has been preparing extensively for the competition since early January, with members committing over 20 hours per week to work on the robot.
                 
-                “The week before we shipped, we actually stayed after school until 9:00 p.m. on two days, trying to get it done,” Kim said.`
-            }
-        ]
+                “The week before we shipped, we actually stayed after school until 9:00 p.m. on two days, trying to get it done,” Kim said.`,
+            },
+        ],
     },
     {
         type: 'articles',
@@ -200,14 +200,14 @@ const timelineData = [
 
                 Science Teacher Jude Ruff, who teaches the Ecology course and was meant to be a chaperone for the trip, said that there were a multitude of issues around the spread of the virus that led to the cancellation.
                 
-                “[We considered] what might happen between now, if we say we’re going, and the time we depart in terms of changes in South Africa and in [the U.K.],” she said. “There are also concerns around what if one or more of us become ill if we’re in the wilderness … we would all have to be isolated.”`
-            }
-        ]
+                “[We considered] what might happen between now, if we say we’re going, and the time we depart in terms of changes in South Africa and in [the U.K.],” she said. “There are also concerns around what if one or more of us become ill if we’re in the wilderness … we would all have to be isolated.”`,
+            },
+        ],
     },
     {
         type: 'text',
         date: 'mar 13',
-        content: 'The school temporarily close the day of March 13 due to a parent of the school testing positive for COVID-19.'
+        content: 'The school temporarily close the day of March 13 due to a parent of the school testing positive for COVID-19.',
     },
     {
         type: 'articles',
@@ -225,8 +225,8 @@ const timelineData = [
                 
                 Although the U.K. government has not yet mandated school closures, Appleby said that the decision was made in order to best protect the community.  
                 
-                “The number one thing that prompted us is the need to do everything to protect the wellbeing of our community,” she said. “While we totally respect the U.K. government’s decision, we are an unusual community in terms of our international identity and that means that perhaps we had to take a different approach.”`
-            }
-        ]
-    }
+                “The number one thing that prompted us is the need to do everything to protect the wellbeing of our community,” she said. “While we totally respect the U.K. government’s decision, we are an unusual community in terms of our international identity and that means that perhaps we had to take a different approach.”`,
+            },
+        ],
+    },
 ];

@@ -2,10 +2,11 @@ const storiesData = [
     [
         {
             type: 'stories',
-            title: 'Distanced Learning',
+            title: 'Distance Learning',
             content: {
                 'Behind the scenes during school closure': 'https://standard.asl.org/14683/features/behind-the-scenes-during-the-school-closure/',
-                'Students adapt to distanced learning': '',
+                'Students adapt to distance learning challenges':
+                    'https://standard.asl.org/14744/news/students-adapt-to-distance-learning-challenges/',
                 'Teachers adapt to working at home': '',
             },
         },
@@ -27,8 +28,9 @@ const storiesData = [
             content: {
                 'Seniors grapple with lost second semester': 'https://standard.asl.org/14708/features/seniors-grapple-with-lost-second-semester/',
                 'Athletes adjust training during lockdown': 'https://standard.asl.org/14712/sports/athletes-adjust-training-during-lockdown/',
-                'Seniors miss final athletic season, tournaments': '',
-                'College students return to U.K. after semester cancellation': '',
+                'Senior athletes reflect on missing spring sports season':
+                    'https://standard.asl.org/14745/sports/senior-athletes-reflect-on-missing-spring-sports-season/',
+                'Alumni return home after university closures': '',
             },
         },
     ],
@@ -37,7 +39,8 @@ const storiesData = [
             type: 'stories',
             title: 'Testing',
             content: {
-                'AP test adjustment questions their validity, disappoints community': '',
+                'AP test adjustments strike range of feelings':
+                    'https://standard.asl.org/14771/features/ap-test-adjustments-strike-range-of-feelings/#photo',
                 'Standardized test cancellation disrupts college application process':
                     'https://standard.asl.org/14696/news/standardized-test-cancellation-disrupts-college-application-process/',
                 'Opinion: Adaptation of AP exams make yearlong effort seem worthless': '',
@@ -63,7 +66,8 @@ const storiesData = [
                 'Isolation allows for self-understanding': '',
                 'Self-isolation promotes appreciation for the community':
                     'https://standard.asl.org/14642/opinions/self-isolation-promotes-appreciation-for-the-community/',
-                'Social distance must be taken seriously': '',
+                'Lockdown requires participation due to severity of virus':
+                    'https://standard.asl.org/14776/opinions/lockdown-requires-participation-due-to-severity-of-virus/#photo',
                 'Guest Writer: Quarantine Diary': 'https://standard.asl.org/14662/opinions/quarantine-diary/',
             },
         },
@@ -73,7 +77,8 @@ const storiesData = [
             type: 'stories',
             title: 'Localizing domestic &amp; global issues',
             content: {
-                'U.K. instates lockdown procedure': '',
+                'Community reacts to lockdown measures enacted in U.K.':
+                    'https://standard.asl.org/14779/features/governments-enact-lockdowns-to-halt-coronavirus-outbreak/#photo',
                 'Isolation affects mental health of some community members': '',
                 'Virus fears incite panic-buying, over storage of goods':
                     'https://standard.asl.org/14691/features/virus-fears-incite-panic-buying-over-storage-of-goods/',
@@ -96,8 +101,9 @@ const storiesData = [
             title: 'Implications of the virus',
             content: {
                 "Coronavirus tests society's selflessness": 'https://standard.asl.org/14638/opinions/coronavirus-tests-societys-selflessness/',
-                'Past outbreaks present need for immediate action': '',
-                'Virus fears incite panic-buying, over storage of goods': '',
+                'Shutting down country provides many issues for citizens': '',
+                'Past outbreaks present need for immediate action':
+                    'https://standard.asl.org/14750/opinions/past-outbreaks-present-need-for-immediate-action/',
             },
         },
     ],

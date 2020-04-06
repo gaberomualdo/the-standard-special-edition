@@ -30,5 +30,7 @@ const scrollingTopareaElm = document.querySelector('section.toparea-scrolling');
     };
 
     window.addEventListener('scroll', checkTopareaScroll);
-    window.addEventListener('load', checkTopareaScroll);
+    setTimeout(() => {
+        checkTopareaScroll();
+    }, 250);
 })();

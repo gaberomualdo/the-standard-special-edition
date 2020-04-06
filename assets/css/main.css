@@ -4,6 +4,9 @@
 @import 'abstracts/global.css?v=2';
 @import 'abstracts/variables.css?v=2';
 
+@import 'abstracts/intro.css?v=2';
+@import 'abstracts/print-edition.css?v=2';
+
 @import 'abstracts/to-top-btn.css?v=2';
 
 @import 'abstracts/loader.css?v=2';

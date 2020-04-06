@@ -1,0 +1,91 @@
+section.print-edition {
+    padding: 3.75rem 5rem;
+    height: auto;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: var(--page-background-color);
+    padding-top: 0 !important;
+}
+
+/* less padding on smaller screens */
+@media only screen and (max-width: 1200px) {
+    section.print-edition {
+        padding: 3rem 2rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    section.print-edition {
+        padding: 2.5rem 1.5rem;
+    }
+}
+@media only screen and (max-width: 900px) {
+    section.print-edition {
+        padding: 2.5rem 1rem;
+    }
+}
+@media only screen and (max-width: 750px) {
+    section.print-edition {
+        padding: 2rem 0.5rem;
+    }
+}
+
+section.print-edition .box {
+    background-color: var(--white-color);
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 8px;
+    border: 1px solid var(--lightish-color);
+    box-shadow: 0 0.05rem 0.4rem var(--text-shadow-lighter-color);
+    line-height: 1.75;
+    font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    overflow: hidden;
+    display: block;
+}
+
+section.print-edition a.box {
+    opacity: 0.95;
+    transition: transform 0.25s, opacity 0.25s, box-shadow 0.25s;
+    overflow: hidden;
+    color: inherit;
+}
+
+section.print-edition a.box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.1rem 0.8rem var(--text-shadow-light-color);
+    opacity: 1;
+}
+section.print-edition a.box:active {
+    transform: translateY(-2px);
+    box-shadow: 0 0.06rem 0.48rem var(--text-shadow-light-color);
+    opacity: 1;
+}
+
+section.print-edition .box img {
+    width: 100%;
+    height: auto;
+}
+section.print-edition .box img.mobile {
+    display: none;
+}
+section.print-edition .box:not(:last-child) {
+    margin-bottom: 3.5rem;
+}
+
+section.print-edition .box p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+/* responsiveness */
+@media only screen and (max-width: 750px) {
+    section.print-edition .box img.mobile {
+        display: block;
+    }
+    section.print-edition .box img:not(.mobile) {
+        display: none;
+    }
+}

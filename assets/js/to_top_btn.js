@@ -32,7 +32,9 @@
     };
 
     window.addEventListener('scroll', checkToTopBtnScroll);
-    window.addEventListener('load', checkToTopBtnScroll);
+    setTimeout(() => {
+        checkToTopBtnScroll();
+    }, 250);
 
     toTopBtnElm.addEventListener('click', () => {
         window.scrollTo(0, 0);

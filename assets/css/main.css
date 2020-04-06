@@ -6,6 +6,8 @@
 
 @import 'abstracts/to-top-btn.css?v=2';
 
+@import 'abstracts/loader.css?v=2';
+
 @import 'toparea/main.css?v=2';
 @import 'toparea/scrolling.css?v=2';
 

@@ -1,5 +1,4 @@
  - Remove extra content on The Standard website
- - Loading transition
  - Deploy to GitHub Pages on The Standard account
  - Uncache everything for final version
 

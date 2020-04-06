@@ -4,6 +4,8 @@
 @import 'abstracts/global.css?v=2';
 @import 'abstracts/variables.css?v=2';
 
+@import 'abstracts/to-top-btn.css?v=2';
+
 @import 'toparea/main.css?v=2';
 @import 'toparea/scrolling.css?v=2';
 

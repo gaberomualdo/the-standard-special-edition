@@ -7,13 +7,17 @@
     const checkToTopBtnScroll = () => {
         const topareaHeight = topareaElm.offsetTop + topareaElm.offsetHeight;
         const scrollingTopareaHeight = remToPx(4);
-        if (window.pageYOffset >= topareaHeight) {
+        const footerPosition = document.body.offsetHeight - remToPx(5) - window.innerHeight;
+        if (window.pageYOffset >= topareaHeight && (window.innerWidth > 1200 || window.pageYOffset < footerPosition)) {
             if (!toTopBtnElm.classList.contains('zoomIn')) {
                 toTopBtnElm.classList.remove('zoomOut');
                 toTopBtnElm.classList.add('active');
                 toTopBtnElm.classList.add('zoomIn');
             }
-        } else if (window.pageYOffset < topareaHeight + scrollingTopareaHeight) {
+        } else if (
+            window.pageYOffset < topareaHeight + scrollingTopareaHeight ||
+            (window.innerWidth <= 1200 && window.pageYOffset > footerPosition)
+        ) {
             if (!scrollingTopareaElm.classList.contains('zoomOut')) {
                 toTopBtnElm.classList.remove('zoomIn');
                 toTopBtnElm.classList.add('zoomOut');

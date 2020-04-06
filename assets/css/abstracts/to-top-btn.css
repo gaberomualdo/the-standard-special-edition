@@ -23,12 +23,13 @@
     height: 100%;
     opacity: 0.65;
     backface-visibility: hidden;
-    transition: opacity 0.2s, transform 0.2s;
+    transition: opacity 0.2s, transform 0.2s, fill 0.2s;
 }
 
 .to-top-btn:hover svg {
     opacity: 1;
     transform: scale(1.1);
+    fill: var(--link-color);
 }
 .to-top-btn:active svg {
     transform: scale(1.05);

@@ -1,0 +1,8 @@
+ - Remove extra content on The Standard website
+ - Loading transition
+ - Deploy to GitHub Pages on The Standard account
+ - Uncache everything for final version
+
+ - Add broken links for section stories
+ - Finalize text content
+ - Add editorial preview text and link

@@ -13,7 +13,7 @@ body {
     background-color: var(--page-light-background-color);
     color: var(--text-color);
     background-image: linear-gradient(rgba(252, 252, 252, 0.94), rgba(252, 252, 252, 0.94)), url(../../img/background_tile.jpg);
-    background-size: 30rem auto;
+    background-size: 35rem auto;
     background-repeat: repeat;
 }
 

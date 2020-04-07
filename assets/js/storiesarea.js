@@ -19,6 +19,7 @@
 
     /* close create a trade modal */
     const closeModal = () => {
+        videoModal.querySelector('iframe').removeAttribute('src');
         videoModalContainer.classList.remove('animated-in');
         videoModalContainer.classList.remove('fadeIn');
         videoModal.classList.remove('zoomIn');

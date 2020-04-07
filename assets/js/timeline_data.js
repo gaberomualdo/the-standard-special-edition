@@ -3,7 +3,7 @@ const timelineData = [
         type: 'text',
         date: 'feb 24',
         content:
-            'The school community returned from February break, just as cases started growing in Northern Italy, causing people to start to self-isolate if they showed symptoms.',
+            'The school community returned from February break just as cases started growing in Northern Italy, causing people to start to self-isolate if they showed symptoms.',
     },
     {
         type: 'articles',
@@ -12,7 +12,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14217/news/coronavirus-outbreak-where-it-stands/',
                 title: 'Coronavirus outbreak: where it stands',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/02/3D_medical_animation_corona_virus-900x506.jpg',
+                image: 'assets/img/stories_images/coronavirus2.jpg',
                 previewText: `Beginning in December 2019, a new strain of coronavirus, labeled COVID-19, began to infect humans, originating in Wuhan, China. 
 
                     The virus was initially contained within animals, but was transmitted to humans at a meat and fish market in Wuhan. 
@@ -36,7 +36,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14221/news/concerns-around-covid-19-result-in-five-trip-cancelations/',
                 title: 'Concerns around COVID-19 result in five trip cancellations',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/02/Better-banner-1-900x600.jpg',
+                image: 'assets/img/stories_images/breakingnews.jpg',
                 previewText: `The AMIS Honor Choir, Honor Band and Orchestra festivals, ISMTF Math Competition, and the Model United Nations (MUN) competition in Dubai have all been canceled due to the outbreak of a coronavirus, labeled as COVID-19.
 
                 In a statement by AMIS Director Executive Director Keith Montgomery, he explained the reasoning for the cancellation of the music trips.
@@ -91,7 +91,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14279/news/alternatives-music-tour-canceled-over-fear-of-coronavirus/',
                 title: 'Alternatives, Music Tour canceled over fear of coronavirus',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/02/Better-banner-1-900x600.jpg',
+                image: 'assets/img/stories_images/breakingnews.jpg',
                 previewText: `Due to concerns over the COVID-19 coronavirus outbreak, the annual Alternatives trips and Music Tour have been canceled. The school community was notified of this development by email Feb. 28. 
 
                 The trips were originally scheduled to occur March 23-26, with several trips planned to visit continental Europe. However, the amount of coronavirus cases in Italy specifically has surged to over 400 cases, causing the virus to spread to other European countries and increasing the risk of an epidemic in Europe.
@@ -109,7 +109,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14319/news/global-festival-postponed-over-coronavirus-fears/',
                 title: 'Global Festival postponed over coronavirus fears',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/03/Online-Global-Festival-Olivia-Abrams-Photo-Credit-900x600.jpg',
+                image: 'assets/img/stories_images/globalfestival.jpg',
                 previewText: `The biennial Global Festival, originally scheduled to occur March 22, has been postponed due to concerns around the recent coronavirus outbreak until Oct. 4.
 
                 Head of School Robin Appleby said that the event was postponed in order to assist the global efforts to contain the spread of the virus.
@@ -124,8 +124,8 @@ const timelineData = [
             },
             {
                 url: 'https://standard.asl.org/14308/opinions/coronavirus-necessitates-global-cooperation/',
-                title: 'Coronavirus necessitates global cooperation',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/03/Coronavirus-e1583157610588-900x600.jpg',
+                title: 'Opinion: Coronavirus necessitates global cooperation',
+                image: 'assets/img/stories_images/coronavirus.jpg',
                 previewText: `As the ongoing coronavirus outbreak has all but dominated public discourse since its worldwide emergence in January, the true extent of the threat it poses has become direly more clear. An analysis conducted by the Economist suggests that  “25-70% of an infected country’s population” could become infected if infections are not quickly isolated. Recent cases in the United States point to worrying signs that people are still at risk of infection despite not having any travel-links to infected countries. And, as was discovered in Italy, sudden influxes in patients can overwhelm unprepared governments.
                 
                 The suppression of this virus is dependent upon domestic healthcare systems functioning to protect and treat its citizens, but that in itself is partially dependent on global cooperation. In order to limit its further spread and resulting death, countries must play an active role within the international community. 
@@ -158,7 +158,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14310/news/administration-takes-proactive-approach-to-combat-threat-of-covid-19/',
                 title: 'Replacement ISST tournaments for swim, rugby planned',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/03/JD-900x600.jpg',
+                image: 'assets/img/stories_images/swim.jpg',
                 previewText: `In place of ISSTs next week, there will be a swimming meet held at ASL on Thursday, March 12 from 2:30 p.m. to 6:00 p.m.  The schools that are participating will be ASL, ACS Cobham, ACS Hillingdon, Frankfurt International School, according from an email from Athletics Director John Farmer.
 
                 TASIS has yet to confirm their participation in any rescheduled tournaments, according to an email from Farmer.
@@ -196,7 +196,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14427/news/annual-ecology-trip-to-south-africa-canceled/',
                 title: 'Annual Ecology trip to South Africa canceled',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/03/IMG_1473-900x600.jpeg',
+                image: 'assets/img/stories_images/ecology.jpg',
                 previewText: `The annual Ecology class trip to the Hluhluwe–Imfolozi Park in South Africa has been canceled. The trip was scheduled to occur over two weeks, beginning March 20. The first week of the trip would have coincided with the now-canceled Alternatives trips. This decision was made due to several concerns surrounding the coronavirus outbreak, and marks the first time that the trip, which has run almost every year spanning two decades, has been canceled.
 
                 Science Teacher Jude Ruff, who teaches the Ecology course and was meant to be a chaperone for the trip, said that there were a multitude of issues around the spread of the virus that led to the cancellation.
@@ -217,7 +217,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14507/news/school-closes-through-mid-april/',
                 title: 'School closes through mid-April',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/03/IMG_8086-900x600.jpeg',
+                image: 'assets/img/stories_images/playground.jpg',
                 previewText: `The school building has been closed from March 16 to at least April 17 and all students will be moving to the Distance Learning Plan in response to the COVID-19 pandemic. The community was informed of this decision tonight at 6:10 p.m. through an email from Head of School Robin Appleby.  
 
                 Chair of the Board of Trustees Dave Novak said the decision was made to keep the community safe.

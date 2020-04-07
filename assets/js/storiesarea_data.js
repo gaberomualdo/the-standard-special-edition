@@ -66,7 +66,6 @@ const storiesData = [
             title: 'Away From School Reflection',
             content: {
                 'Coronavirus brings ups and downs': 'https://standard.asl.org/14820/opinions/coronavirus-brings-ups-downs/#photo',
-                'Isolation allows for self-understanding': '',
                 'Self-isolation promotes appreciation for the community':
                     'https://standard.asl.org/14642/opinions/self-isolation-promotes-appreciation-for-the-community/',
                 'Lockdown requires participation due to severity of virus':
@@ -104,7 +103,7 @@ const storiesData = [
             title: 'Implications of the virus',
             content: {
                 "Coronavirus tests society's selflessness": 'https://standard.asl.org/14638/opinions/coronavirus-tests-societys-selflessness/',
-                'Shutting down country provides many issues for citizens': '',
+                'Lockdown measures have harmful consequences': 'https://standard.asl.org/14863/opinions/lockdown-measures-have-harmful-consequences/',
                 'Past outbreaks present need for immediate action':
                     'https://standard.asl.org/14750/opinions/past-outbreaks-present-need-for-immediate-action/',
                 "Coronavirus doesn't provide excuse for racism":

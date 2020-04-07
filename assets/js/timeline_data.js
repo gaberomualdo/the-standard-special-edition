@@ -3,7 +3,7 @@ const timelineData = [
         type: 'text',
         date: 'feb 24',
         content:
-            'The school community returned from February break just as cases started growing in Northern Italy, causing people to start to self-isolate if they showed symptoms.',
+            'The school community returned from February break just as cases started growing in Northern Italy, causing people returning from that region to self-isolate if they showed symptoms.',
     },
     {
         type: 'articles',

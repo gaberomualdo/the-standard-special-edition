@@ -4,7 +4,6 @@ section.print-edition {
     width: 100%;
     display: block;
     box-sizing: border-box;
-    background-color: var(--page-background-color);
     padding-top: 0 !important;
 }
 

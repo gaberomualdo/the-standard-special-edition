@@ -2,8 +2,3 @@
 const remToPx = (rem) => {
     return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
 };
-
-// remove loading from body when loaded
-setTimeout(() => {
-    document.querySelector('body').classList.remove('loading');
-}, 250);

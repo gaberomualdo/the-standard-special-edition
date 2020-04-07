@@ -5,7 +5,6 @@ section.timeline {
     display: block;
     padding: 3.5rem 5rem;
     box-sizing: border-box;
-    background-color: var(--page-background-color);
 }
 
 /* less padding on smaller screens */
@@ -170,6 +169,19 @@ section.timeline .timeline-part .content .box .italic {
     }
 }
 
+@media only screen and (max-width: 550px) {
+    section.timeline {
+        zoom: 75%;
+    }
+    :root {
+        --timeline-outer-width: 4rem;
+        --timeline-inner-width: 1rem;
+    }
+    section.timeline .timeline-part .content {
+        padding-left: 0.75rem !important;
+    }
+}
+
 /* article box */
 section.timeline .timeline-part .content .box.article-box {
     width: calc(50% - 1rem);
@@ -227,13 +239,13 @@ section.timeline .timeline-part .content .box.article-box .inner {
 
 section.timeline .timeline-part .content .box.article-box .inner h1.title {
     padding-top: 0.5rem;
-    font-size: 2.15rem;
+    font-size: 2rem;
     line-height: 1.35;
     color: var(--dark-text-color);
     margin-bottom: 0.75rem;
     font-weight: 600;
-    font-family: 'DIN Condensed', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-        'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans Condensed', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
 }
 section.timeline .timeline-part .content .box.article-box .inner p.preview-text {
     font-size: 1rem;
@@ -280,6 +292,10 @@ section.timeline .timeline-part .content.single-box .box.article-box .image + .i
         float: left;
         clear: both;
         box-sizing: border-box;
+    }
+    section.timeline .timeline-part .content .box.article-box .image {
+        border-right: none;
+        border-bottom: 1px solid var(--lighter-color);
     }
 }
 @media only screen and (max-width: 650px) {

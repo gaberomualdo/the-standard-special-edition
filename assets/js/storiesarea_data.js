@@ -7,7 +7,8 @@ const storiesData = [
                 'Behind the scenes during school closure': 'https://standard.asl.org/14683/features/behind-the-scenes-during-the-school-closure/',
                 'Students adapt to distance learning challenges':
                     'https://standard.asl.org/14744/news/students-adapt-to-distance-learning-challenges/',
-                'Teachers adapt to working at home': '',
+                'Teachers work to implement distance learning':
+                    'https://standard.asl.org/14765/features/teachers-work-to-implement-distanced-learning',
             },
         },
         {
@@ -30,7 +31,8 @@ const storiesData = [
                 'Athletes adjust training during lockdown': 'https://standard.asl.org/14712/sports/athletes-adjust-training-during-lockdown/',
                 'Senior athletes reflect on missing spring sports season':
                     'https://standard.asl.org/14745/sports/senior-athletes-reflect-on-missing-spring-sports-season/',
-                'Alumni return home after university closures': '',
+                'Alumni return home after university closures':
+                    'https://standard.asl.org/14816/features/alumni-return-home-after-university-closures/',
             },
         },
     ],
@@ -43,7 +45,8 @@ const storiesData = [
                     'https://standard.asl.org/14771/features/ap-test-adjustments-strike-range-of-feelings/#photo',
                 'Standardized test cancellation disrupts college application process':
                     'https://standard.asl.org/14696/news/standardized-test-cancellation-disrupts-college-application-process/',
-                'Opinion: Adaptation of AP exams make yearlong effort seem worthless': '',
+                'Opinion: Adaptation of AP exams make yearlong effort seem worthless':
+                    'https://standard.asl.org/14854/opinions/change-of-ap-exams-make-yearlong-effort-seem-worthless',
             },
         },
         {
@@ -62,7 +65,7 @@ const storiesData = [
             type: 'stories',
             title: 'Away From School Reflection',
             content: {
-                'Coronavirus brings ups and downs': '',
+                'Coronavirus brings ups and downs': 'https://standard.asl.org/14820/opinions/coronavirus-brings-ups-downs/#photo',
                 'Isolation allows for self-understanding': '',
                 'Self-isolation promotes appreciation for the community':
                     'https://standard.asl.org/14642/opinions/self-isolation-promotes-appreciation-for-the-community/',
@@ -79,7 +82,7 @@ const storiesData = [
             content: {
                 'Community reacts to lockdown measures enacted in U.K.':
                     'https://standard.asl.org/14779/features/governments-enact-lockdowns-to-halt-coronavirus-outbreak/#photo',
-                'Isolation affects mental health of some community members': '',
+                'Isolation affects mental health': 'https://standard.asl.org/14849/features/isolation-impacts-mental-health/',
                 'Virus fears incite panic-buying, over storage of goods':
                     'https://standard.asl.org/14691/features/virus-fears-incite-panic-buying-over-storage-of-goods/',
             },
@@ -104,6 +107,8 @@ const storiesData = [
                 'Shutting down country provides many issues for citizens': '',
                 'Past outbreaks present need for immediate action':
                     'https://standard.asl.org/14750/opinions/past-outbreaks-present-need-for-immediate-action/',
+                "Coronavirus doesn't provide excuse for racism":
+                    'https://standard.asl.org/14845/features/coronavirus-doesnt-provide-excuse-for-racism',
             },
         },
     ],

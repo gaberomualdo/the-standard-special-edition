@@ -3,7 +3,7 @@ const timelineData = [
         type: 'text',
         date: 'feb 24',
         content:
-            'The school returned from February break, just as cases started growing in Northern Italy, causing people to start to self-isolate if they started showing symptoms.',
+            'The school community returned from February break, just as cases started growing in Northern Italy, causing people to start to self-isolate if they showed symptoms.',
     },
     {
         type: 'articles',
@@ -35,7 +35,7 @@ const timelineData = [
         content: [
             {
                 url: 'https://standard.asl.org/14221/news/concerns-around-covid-19-result-in-five-trip-cancelations/',
-                title: 'Concerns around COVID-19 result in five trip cancelations',
+                title: 'Concerns around COVID-19 result in five trip cancellations',
                 image: 'https://standard.asl.org/wp-content/uploads/2020/02/Better-banner-1-900x600.jpg',
                 previewText: `The AMIS Honor Choir, Honor Band and Orchestra festivals, ISMTF Math Competition, and the Model United Nations (MUN) competition in Dubai have all been canceled due to the outbreak of a coronavirus, labeled as COVID-19.
 
@@ -174,7 +174,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14390/news/robotics-trip-canceled-over-coronavirus-fears/',
                 title: 'Robotics trip canceled over coronavirus fears',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/02/Better-banner-1-900x600.jpg',
+                image: 'assets/img/robotics_picture.jpg',
                 previewText: `Due to concerns over the recent coronavirus outbreak, the Robotics trip to the FIRST Robotics Regional Competition in Orlando, Florida has been canceled. 
 
                 The trip was set to leave March 10, but the emergence of 17 cases of the COVID-19 virus in Florida led the administration to reconsider those plans.
@@ -196,6 +196,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14427/news/annual-ecology-trip-to-south-africa-canceled/',
                 title: 'Annual Ecology trip to South Africa canceled',
+                image: 'https://standard.asl.org/wp-content/uploads/2020/03/IMG_1473-900x600.jpeg',
                 previewText: `The annual Ecology class trip to the Hluhluwe–Imfolozi Park in South Africa has been canceled. The trip was scheduled to occur over two weeks, beginning March 20. The first week of the trip would have coincided with the now-canceled Alternatives trips. This decision was made due to several concerns surrounding the coronavirus outbreak, and marks the first time that the trip, which has run almost every year spanning two decades, has been canceled.
 
                 Science Teacher Jude Ruff, who teaches the Ecology course and was meant to be a chaperone for the trip, said that there were a multitude of issues around the spread of the virus that led to the cancellation.
@@ -207,7 +208,7 @@ const timelineData = [
     {
         type: 'text',
         date: 'mar 13',
-        content: 'The school temporarily close the day of March 13 due to a parent of the school testing positive for COVID-19.',
+        content: 'The school temporarily closes the day of March 13 due to a parent testing positive for COVID-19.',
     },
     {
         type: 'articles',
@@ -216,7 +217,7 @@ const timelineData = [
             {
                 url: 'https://standard.asl.org/14507/news/school-closes-through-mid-april/',
                 title: 'School closes through mid-April',
-                image: 'https://standard.asl.org/wp-content/uploads/2020/02/Better-banner-1-900x600.jpg',
+                image: 'https://standard.asl.org/wp-content/uploads/2020/03/IMG_8086-900x600.jpeg',
                 previewText: `The school building has been closed from March 16 to at least April 17 and all students will be moving to the Distance Learning Plan in response to the COVID-19 pandemic. The community was informed of this decision tonight at 6:10 p.m. through an email from Head of School Robin Appleby.  
 
                 Chair of the Board of Trustees Dave Novak said the decision was made to keep the community safe.

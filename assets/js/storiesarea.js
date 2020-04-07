@@ -1,3 +1,43 @@
+/* video modal functionality */
+(() => {
+    const videoModalContainer = document.querySelector('.video-modal-container');
+    const videoModal = document.querySelector('.video-modal');
+    const videoButton = document.querySelector('.open-video-button');
+    videoButton.addEventListener('click', () => {
+        videoModalContainer.classList.remove('fadeOut');
+        videoModal.classList.remove('zoomOut');
+
+        videoModalContainer.classList.add('active');
+        videoModalContainer.classList.add('fadeIn');
+        videoModal.classList.add('zoomIn');
+
+        setTimeout(() => videoModalContainer.classList.add('animated-in'), 350);
+        if (!videoModal.querySelector('iframe').getAttribute('src')) {
+            videoModal.querySelector('iframe').setAttribute('src', 'https://www.youtube.com/embed/LhLz6KNjMmk?&autoplay=1');
+        }
+    });
+
+    /* close create a trade modal */
+    const closeModal = () => {
+        videoModalContainer.classList.remove('animated-in');
+        videoModalContainer.classList.remove('fadeIn');
+        videoModal.classList.remove('zoomIn');
+
+        videoModalContainer.classList.add('fadeOut');
+        videoModal.classList.add('zoomOut');
+
+        setTimeout(() => videoModalContainer.classList.remove('active'), 350);
+    };
+
+    const closeModalBtn = document.querySelector('.video-modal .close-button');
+    closeModalBtn.addEventListener('click', closeModal);
+    document.addEventListener('click', (e) => {
+        if (e.target == videoModalContainer && videoModalContainer.classList.contains('animated-in')) {
+            closeModal();
+        }
+    });
+})();
+
 /* display code for stories area */
 (() => {
     const storiesSectionInnerElm = document.querySelector('section.storiesarea .inner');

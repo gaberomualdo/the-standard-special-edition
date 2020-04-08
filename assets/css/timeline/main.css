@@ -170,9 +170,6 @@ section.timeline .timeline-part .content .box .italic {
 }
 
 @media only screen and (max-width: 550px) {
-    section.timeline {
-        zoom: 75%;
-    }
     :root {
         --timeline-outer-width: 4rem;
         --timeline-inner-width: 1rem;

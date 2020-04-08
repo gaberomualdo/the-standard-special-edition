@@ -70,14 +70,17 @@ section.toparea .bottom-left {
     position: absolute;
     font-size: 0.9rem;
     color: var(--dark-text-color);
+    max-width: 50%;
 }
 section.toparea .bottom-right {
     bottom: 0.5rem;
     right: 0.5rem;
+    text-align: right;
 }
 section.toparea .bottom-left {
     bottom: 0.5rem;
     left: 0.5rem;
+    text-align: left;
 }
 
 /* responsiveness */
@@ -88,6 +91,9 @@ section.toparea .bottom-left {
 }
 
 @media only screen and (max-width: 725px) {
+    section.toparea .bottom-left span {
+        display: none;
+    }
     section.toparea {
         padding: 2.25rem 0.5rem;
     }

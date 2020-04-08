@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-@import 'abstracts/global.css?v=4';
-@import 'abstracts/variables.css?v=4';
+@import 'abstracts/global.css?v=5';
+@import 'abstracts/variables.css?v=5';
 
-@import 'abstracts/intro.css?v=4';
-@import 'abstracts/print-edition.css?v=4';
+@import 'abstracts/intro.css?v=5';
+@import 'abstracts/print-edition.css?v=5';
 
-@import 'abstracts/to-top-btn.css?v=4';
+@import 'abstracts/to-top-btn.css?v=5';
 
-@import 'abstracts/loader.css?v=4';
+@import 'abstracts/loader.css?v=5';
 
-@import 'toparea/main.css?v=4';
-@import 'toparea/scrolling.css?v=4';
+@import 'toparea/main.css?v=5';
+@import 'toparea/scrolling.css?v=5';
 
-@import 'timeline/main.css?v=4';
+@import 'timeline/main.css?v=5';
 
-@import 'storiesarea/main.css?v=4';
+@import 'storiesarea/main.css?v=5';
 
-@import 'footer/main.css?v=4';
+@import 'footer/main.css?v=5';
